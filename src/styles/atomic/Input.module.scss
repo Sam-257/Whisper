@@ -1,9 +1,0 @@
-@use "colors";
-@use "utils";
-
-.text {
-  @include themify(){
-    background: themed("chatTile");
-    color: themed("msgTxt");
-  }
-}

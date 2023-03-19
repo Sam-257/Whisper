@@ -1,0 +1,8 @@
+@use "../../styles/utils" as *;
+
+.text {
+  @include themed {
+    color: t('chatTile');
+    background: t('msgTxt');
+  }
+}

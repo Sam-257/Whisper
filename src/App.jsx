@@ -1,16 +1,18 @@
-import { createContext } from 'react';
-import '@styles/global.scss'
+import { createContext, useState } from 'react';
+import Input from './atoms/Input';
 
 const ThemeContext = createContext(null);
 
-export default function App({ Component, pageProps }) {
-  const [theme, setTheme] = useState('light')
+const App = () => {
+  const [theme, setTheme] = useState('dark')
 
   return (
     <ThemeContext.Provider value={theme} setTheme={setTheme}>
       <div className={theme === 'dark' ? 'theme--dark' : 'theme--light'}>
-        <Component {...pageProps} />
+        <Input />
       </div>
     </ThemeContext.Provider>
-  )
+  );
 }
+
+export default App;
