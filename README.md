@@ -107,3 +107,17 @@ Contacts
 Profile
 
  //TODO: create atomic components
+
+ ## SCSS Files
+ _colors.scss
+ _fonts.scss
+ _utils.scss    // margins and paddings; row & col
+ _breakpoints.scss      // mixins & media Queries
+ _index.js
+
+#121
+#181
+#404
+@282
+#fff
+#B3B

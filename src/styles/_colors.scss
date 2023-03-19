@@ -1,0 +1,38 @@
+$theme: (
+  dark: (
+    chatTile: #101B21,
+    chatTileHover: #2A3942,
+    chatWindowBg: #0B131A,
+    danger: #EA1E38,
+    greenActive: #00A884,
+    inputBg: #202C33,
+    inputPlaceholder: #8696A0, 
+    mainBg: #101B21,
+    msgTxt: #E9EDEF,
+    navBg: #202C33,
+    navText: #AEBAC1,
+    receiverMsgBg: #202C33,
+    senderMsgBg: #005C4B,
+    textHeavy: #E9EDEF,
+    textLight: #8696A0,
+    yellowBadge: #EEA986
+  ),
+  light: (
+    chatTile: #FFFFFF,
+    chatTileHover: #F0F2F5,
+    chatWindowBg: #EFE9E2,
+    danger: #EA1E38,
+    greenActive: #25D366,
+    inputBg: #F0F2F5,
+    inputPlaceholder: #667781, 
+    mainBg: #E1E1DE,
+    msgTxt: #101B21,
+    navBg: #F0F2F5,
+    navText: #54656F,
+    receiverMsgBg: #D9FDD3,
+    senderMsgBg: #FFFFFF,
+    textHeavy: #101B21,
+    textLight: #3B4A54,
+    yellowBadge: #EEA986
+  )
+)
