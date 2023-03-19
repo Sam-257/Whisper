@@ -46,7 +46,64 @@ IntersectionObserver API
 locale
 socket.io
 uuid
-dotenv
 date-fns
 
 ## Modules
+
+ContextProvider
+
+## Features
+Dark/Light mode
+
+## Atomic Components
+
+<Input
+    leftIcon
+    rightIcon
+    labelText
+    placeholder
+    width
+    backgroundColor
+    validators
+    onChange
+/>
+
+<Avatar isActive />
+
+<Badge count />
+
+<Time time />
+
+<Button
+    text
+    onClick
+/>
+
+<Message
+    who
+    content
+/>
+
+<SendBtn 
+    onClick
+/>
+
+<Dropdown />
+<FileUpload />
+
+## Components
+
+<Navbar />
+<ChatTile />
+<ChatTileContainer />
+<ChatWindow />
+<Profile />
+
+## Pages
+Login
+Register
+Chat
+Contacts
+Profile
+
+ //TODO: create atomic components
