@@ -1,6 +1,7 @@
 import { createContext, useState } from 'react';
 // import Input from 'atoms/Input';
 // import Avatar from 'atoms/Avatar';
+// import Badge from 'atoms/Badge';
 // import Navbar from './components/Navbar';
 
 const ThemeContext = createContext(null);
@@ -18,6 +19,7 @@ const App = () => {
           isActive={true}
           clickable={false}
         /> */}
+        {/* <Badge /> */}
       </div>
     </ThemeContext.Provider>
   );
