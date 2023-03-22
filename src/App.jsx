@@ -1,5 +1,6 @@
 import { createContext, useState } from 'react';
-import Input from './atoms/Input';
+// import Input from 'atoms/Input';
+// import Avatar from 'atoms/Avatar';
 
 const ThemeContext = createContext(null);
 
@@ -8,8 +9,13 @@ const App = () => {
 
   return (
     <ThemeContext.Provider value={theme} setTheme={setTheme}>
-      <div className={theme === 'dark' ? 'theme--dark' : 'theme--light'}>
-        <Input />
+      <div className={theme === 'dark' ? 'theme__dark' : 'theme__light'}>
+        {/* <Input /> */}
+        {/* <Avatar 
+          imgSrc="https://source.unsplash.com/user/c_v_r/100x100"
+          isActive={true}
+          clickable={false}
+        /> */}
       </div>
     </ThemeContext.Provider>
   );

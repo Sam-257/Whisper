@@ -1,0 +1,31 @@
+@use "styles/utils" as *;
+
+
+.avatar {
+  &__wrapper {
+    width: 45px;
+    height: 45px;
+    position: relative;
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    &__clickable {
+      cursor: pointer;
+    }
+  }
+  &__activeBadge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    @include themed {
+      background-color: t('activeBadge');
+    }
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    display: inline-block;
+  }
+}
