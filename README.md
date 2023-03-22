@@ -31,7 +31,7 @@ Dark/Light mode
     onChange
 />
 
-<Avatar isActive />
+<Avatar isActive imgSrc clickable/>
 
 <Badge count />
 
