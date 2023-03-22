@@ -1,0 +1,29 @@
+@use "../../styles/utils" as *;
+
+.navbar__list {
+  width: auto;
+  display: flex;
+  gap: 25px;
+  float: right;
+  text-transform: capitalize;
+  @include themed {
+    background: t('navBg');
+    color: t('navText')
+  }
+}
+
+.navbar__list {
+  list-style: none;
+}
+
+.navbar__a {
+  text-decoration: none;
+  @include themed {
+    color: t('navText');
+  }
+}
+
+.navbar__a:hover {
+  border-bottom: 3px solid;
+  transition: 0.1s ease-in;
+}
